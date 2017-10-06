@@ -1,0 +1,21 @@
+1. What happens when you initiate a repository? Why do you
+need to do it?
+
+When you initiate a repository, your directory is now
+in Git territory. You can start Version Control,
+creating commits, checking statuses, etc.  You
+need to do this to use Git in a specific directory.
+
+2. How is the staging area different from the working
+directory and the repository? What value do you think
+it offers?
+
+The staging area is a place where you put files before
+you create a commit. It's like putting items on a backdrop
+before taking a picture to list the item on ebay. Placing
+the item on the backdrop is adding it to the staging area,
+and pressing the shutter button is like a commit. The
+working directory is helpful, because that is where all of
+your files (whether they're in the repository or not)
+currently are. The repository is the place where you put
+the files that you want to save and track over time.
