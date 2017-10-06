@@ -1,0 +1,77 @@
+1. How did viewing a diff between two versions of a file
+help you see the bug that was introduced?
+
+Viewing the diff helped me see the bug that was introduced
+by showing me the lines that were changed between the
+different versions. It used a '+' sign to show me
+that a line was added in the new version, and
+a '-' sign to show me that a line was removed
+in the new version.
+
+2. How could having easy access to the entire
+history of a file make you a more efficient
+programmer in the long term?
+
+It can make you more efficient by removing
+fear of losing progress. You won't have
+to constantly save versions of your file
+if it is automatically done for you.
+You can also look back to help with
+the debugging process and see what
+change you introduced that caused
+the code to break.
+
+3. What do you think are the pros and
+cons of manually choosing when to create
+a commit, like you do in Git, vs having
+versions automatically saved, like Google
+Docs does?
+
+Obviously, manual commits take more effort
+and planning and thought. You must remember
+to do them. When your versions are automatically
+saved, you don't have to worry so much about losing
+your work. However, you may have a hard time comparing
+versions if everything is saved automatically on
+time intervals. If you manually save, you can designate
+the changes you made in each save, making it easier to
+compare versions, and fix potential problems that might
+come up.
+
+4. Why do you think some version control systems, like
+Git, allow saving multiple files in one commit, while others,
+like Google Docs, treat each file separately?
+
+Different systems have different ends. Git knows it's
+dealing with programming files, which are often connected
+to each other. Google Docs usually deals with essays and
+documents that can stand on their own. They don't have a need
+to create this feature.
+
+5. How can you use the commands git log and git diff
+to view the history of files?
+
+You can use git log (particularly git log --stat) to
+view a list of the commits in the project, along with
+the number of insertions and deletes from each file.
+If you want to compare two separate commits, you can
+do so with the git diff command. Just copy and paste
+the ID of the first and second file following git diff.
+Then, you can see a list of the code (colored). The
+green lines are new, and the red lines are no longer
+in the new file (the second ID you wrote).
+
+6. How might using version control make you more
+confident to make changes that could break something?
+
+I would feel confident in making changes, knowing that
+if I break something, I can always revert back to a
+working version of my program. It's FREEDOM to break
+and create and experiment! It's beautiful!
+
+7. Now that you have your workspace set up, what
+do you want to try using Git for?
+
+I would like to, either before or after FSND, use
+Git and GitHub along with Java or Python to help
+develop an automated Ebay Listing Application.
