@@ -19,3 +19,30 @@ working directory is helpful, because that is where all of
 your files (whether they're in the repository or not)
 currently are. The repository is the place where you put
 the files that you want to save and track over time.
+
+3. How can you use the staging area to make sure you have
+one commit per logical change?
+
+You can use the git diff and git diff --staged command
+to check what changes you've made between the working
+file and the staged file, and between the staged file
+and the last commit. If you get confused, this will help
+you!
+
+4. What are some situations when branches would be helpful
+in keeping your history organized? How would branches help?
+
+Branches help when there are multiple languages or difficulties,
+or when you're adding an experimental feature. They help you
+make changes to the files, while keeping an original copy
+in a different branch in case you want to revert/delete your
+experimental branch. For example, if I am making an Ebay Listing
+App, and I want to make two separate versions (one for Windows,
+one for Mac), it may help to have two different branches for
+each operating system.
+
+5. How do the diagrams help you visualize the branch structure?
+
+When you look at the diagrams, you can see all of the commits
+you have access to for each branch, and which commits will be
+lost if you don't save them to a new branch.
