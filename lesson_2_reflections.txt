@@ -46,3 +46,27 @@ each operating system.
 When you look at the diagrams, you can see all of the commits
 you have access to for each branch, and which commits will be
 lost if you don't save them to a new branch.
+
+6. What is the result of merging two branches together? Why do
+we represent it in the diagram the way we do?
+
+When you merge branches, the resulting commit combines all
+of the changes into one file and one branch (the branch
+that is currently checked out). It then makes it safe
+for us to delete the second branch we merged. In the
+diagram, it has a tree element where two arrows point
+to the older branches we just merged. It makes it easy
+to visualize and see what commits we now have access to.
+
+7. What are the pros and cons of Git's automatic merging
+vs. always doing merges manually?
+
+Git makes merging very easy with a simple command. It
+tracks the changes in files, and where there are conflicts,
+it lets you resolve them yourself and choose the right
+version to merge. It can be inconvenient if you're
+merging a lot of code and there are a lot of duplicate
+lines with small changes. You'd have to go through many
+lines and specify which ones to use. But if Git did this
+automatically, it would be too complex and there would
+be mistakes.
