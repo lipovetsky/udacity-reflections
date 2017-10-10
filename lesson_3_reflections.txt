@@ -26,3 +26,9 @@ copy and paste a folder in your computer from one location to another.
 An exact clone. A branch, on the other hand, is done within a
 repository, and it allows you to copy and paste all of the files in
 your project in order work on a new feature. It's like an internal clone.
+
+4. What is the benefit of having a copy of the last known state of the
+remote stored locally?
+
+It helps you track all of the changes you've made since your last pull. It also
+lets you revert to the remote master if necessary.
