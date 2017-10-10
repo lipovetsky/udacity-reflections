@@ -14,3 +14,15 @@ changes and updates to files that you're working on. You don't
 want this! Maybe you're working on some experimental feature
 on GitHub, and you're not ready to sync it to your local
 repository.
+
+3. Describe the difference between forks, clones, and branches.
+When would you use one instead of another?
+
+A fork is a GitHub-only feature. It allows you to copy another
+Git repository to your own account. A clone via GitHub. A regular
+clone, however, lets you copy a remote repository hosted on GitHub
+and copy it to your local computer. It's also what happens when you
+copy and paste a folder in your computer from one location to another.
+An exact clone. A branch, on the other hand, is done within a
+repository, and it allows you to copy and paste all of the files in
+your project in order work on a new feature. It's like an internal clone.
