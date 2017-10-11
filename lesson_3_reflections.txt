@@ -41,3 +41,18 @@ E-Mail. It would be harder because you'd have to communicate more. There
 would be no program to track changes. Things could slip through the cracks
 a lot. It would be easier if it's a smaller and simpler project, since you
 wouldn't have to learn all of the Git frameworks and terminology.
+
+6. When would you want to make changes in a separate branch rather than
+directly in master? What benefits does each approach have?
+
+If you're working on some experimental version or feature for a project, you
+don't want to have it break everything and destroy your whole project. You
+create a branch. That way, if everything breaks, you will be able to recover
+your project. It also helps if you're developing different languages, versions,
+or difficulty levels for your project. Also, if many people are working on a
+project, it might help to have different people each with their own branch.
+When the group mutually decides upon a change, they can merge it into the
+master. It keeps things running smoothly, though it can be tedious. Making
+changes directly in master is easier, but it can mess things up really quickly
+if you're working with other people, and it can be harder to visualize your
+changes.
