@@ -30,5 +30,14 @@ your project in order work on a new feature. It's like an internal clone.
 4. What is the benefit of having a copy of the last known state of the
 remote stored locally?
 
-It helps you track all of the changes you've made since your last pull. It also
-lets you revert to the remote master if necessary.
+It helps you track all of the changes you've made since your last pull. It
+also lets you revert to the remote master if necessary.
+
+5. How would you collaborate without using Git or GitHub? What would be
+easier, and what what would be harder?
+
+If you don't have GitHub, you would have to collaborate in-person or via
+E-Mail. It would be harder because you'd have to communicate more. There
+would be no program to track changes. Things could slip through the cracks
+a lot. It would be easier if it's a smaller and simpler project, since you
+wouldn't have to learn all of the Git frameworks and terminology.
